@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;  
+}
+.header-section .logo-content {
+    display: flex;
+    font-size: 2rem;
+    
+
+}
