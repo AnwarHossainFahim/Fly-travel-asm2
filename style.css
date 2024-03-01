@@ -4,14 +4,51 @@
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
+body{
+    width: auto;
+}
 .header-section{
     display: flex;
-    justify-content: space-between;
-    background-color: bisque;  
+    justify-content: space-around;
+    background-color: transparent;
+    margin: 50px 0;
+    text-align: center;
+    align-items: center;
+
 }
 .header-section .logo-content {
     display: flex;
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+.logo-content img{
+    width: 48px;
+    height: auto;
+    padding-right: 5px;
+}
+.logo-content span{
+    color: #FF5400;
+}
+.navigation-bar a{
+    font-size: 18px;
+    color:#424247;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 44px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navigation-bar a:hover {
+    color: black;
+}
+.navigation-bar a:active {
+    color: #FF5400;
+}
+.hero-section{
+    width: 1170px;
+    height: 500px;
+    background-image: url(Images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     
-
 }
