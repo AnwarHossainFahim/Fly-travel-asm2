@@ -44,11 +44,47 @@ body{
 .navigation-bar a:active {
     color: #FF5400;
 }
-.hero-section{
-    width: 1170px;
+.hero-section-container{
+    width: auto;
     height: 500px;
+    margin: 15px auto;
     background-image: url(Images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    text-align: center;
+    align-items: center;
+}
+.hero-container h1 {
+    padding: 150px 0 24px 0;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.hero-container p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-container {
+    max-width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    align-items: center;
+}
+.btn-container button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    text-align: center;
+    align-items: center;
+}
+.btn-container .find {
+    background-color: #FF5400;
+    color: #fff;
 }
