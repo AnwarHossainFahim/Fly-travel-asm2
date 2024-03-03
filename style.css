@@ -356,7 +356,7 @@ hr{
     padding: 25px 0;
 }
 .footer-container p{
-    padding: 25px 0;
+    padding: 15px 0;
     color: #131318;
     font-family: Inter;
     font-size: 16px;
@@ -365,12 +365,11 @@ hr{
 }
 
 .footer-logo-containt{
-    padding-top: 145px;
+    padding-top: 135px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 25px 0;
 }
 
 
