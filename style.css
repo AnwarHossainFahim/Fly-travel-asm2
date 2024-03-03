@@ -94,6 +94,7 @@ body{
     background-color: #FF5400;
     color: #fff;
 }
+
 .Our-Popular-Tours-container{
     width: 100%;
     height: 550px;
@@ -322,6 +323,9 @@ body{
     font-weight: 400;
     padding-bottom: 25px;
 }
+hr{
+    opacity: 0.3;
+}
 .input-container label input{
     width: 393px;
     height: 52px;
@@ -342,6 +346,33 @@ body{
     border-style: none;
     background: #FF5400;
 }
+.footer-container{
+    width: 100%;
+    margin: 25px auto;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container img{
+    padding: 25px 0;
+}
+.footer-container p{
+    padding: 25px 0;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footer-logo-containt{
+    padding-top: 145px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
 
 
 
