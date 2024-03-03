@@ -5,11 +5,14 @@
     font-family: "Mulish", sans-serif;
 }
 body{
-    width: auto;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
 }
 .header-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: transparent;
     margin: 50px 0;
     text-align: center;
@@ -18,7 +21,7 @@ body{
 }
 .header-section .logo-content {
     display: flex;
-    font-size: 1.7rem;
+    font-size: 24px;
 }
 .logo-content img{
     width: 48px;
@@ -39,13 +42,13 @@ body{
     cursor: pointer;
 }
 .navigation-bar a:hover {
-    color: black;
-}
-.navigation-bar a:active {
     color: #FF5400;
 }
+.navigation-bar a:active {
+    color: #FFF;
+}
 .hero-section-container{
-    width: auto;
+    width: 100%;
     height: 500px;
     margin: 15px auto;
     background-image: url(Images/hero.png);
@@ -68,12 +71,15 @@ body{
     font-weight: 400;
 }
 .btn-container {
-    max-width: 800px;
+    width: 60%;
     height: 84px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
 .btn-container button {
     width: 174px;
@@ -87,4 +93,45 @@ body{
 .btn-container .find {
     background-color: #FF5400;
     color: #fff;
+}
+.Our-Popular-Tours-container{
+    width: 100%;
+    height: 550px;
+    margin: 55px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Our-Popular-Tours-contant {
+    text-align: left;
+    align-items: center;
+    color: rgba(19, 19, 24, 0.70);
+    list-style-position:inside;
+}
+.Our-Popular-Tours-contant h1{
+    font-size: 40px;
+    color: #131318;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+    
+.Our-Popular-Tours-contant p, ul, li{
+    padding-bottom: 20px;
+}
+.Our-Popular-Tours-contant button{
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+}
+.Our-Popular-Tours-contant img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
 }
