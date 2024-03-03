@@ -248,6 +248,63 @@ body{
     background: #FF5400;
     border-style: none;
 }
+.Simple-Perfect-Place-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 25px 0;
+}
+.Simple-Perfect-Place-container h1, p, li{
+    padding-bottom: 20px;
+}
+.Simple-Perfect-Place-container h1{
+    padding-bottom: 15px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Simple-Perfect-Place-container p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Simple-Perfect-Place-container li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Simple-Perfect-Place-container button{
+    width: 174px;
+    height: 52px;
+    margin: 45px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+}
+.video-contanter{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background-image: url(Images/Group\ 40089.png);
+}
+.video-contanter video{
+    width: 610px;
+    height: 424px;
+    opacity: 0.3;
+    border-radius: 16px;
+}
+.Newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.input-container
+
+
 
 
 
